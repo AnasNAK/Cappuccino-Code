@@ -14,13 +14,14 @@
     <!-- start header-->
     <header>
         <div class="head">
+            <img class="burger" src="/assets/images/burger.png" alt="Burger Menu" id="burgerImage">
             <img src="assets/images/logo.png" alt="">
-            <ul>
+            <ul class="desktop-menu">
                 <li class="nav-items">
-                    <a href="index.html">Home</a>
+                    <a href="index.html" >Home</a>
                 </li>
                 <li class="nav-items">
-                    <a class="active">Menu</a>
+                    <a href="menu.html" class="active">Menu</a>
                 </li>
                 <li class="nav-items">
                     <a href="location.html">Location</a>
@@ -29,7 +30,23 @@
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
-
+        </div>
+        <div id="menu" class="hidden mobile-menu">
+            <span id="closeMenu" class="close-button">X</span>
+            <ul>
+                <li class="">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="">
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li class="">
+                    <a href="location.html">Location</a>
+                </li>
+                <li class="">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </header>
     <!-- end header -->

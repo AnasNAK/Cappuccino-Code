@@ -42,3 +42,17 @@ document.querySelector('a[href="#scrollTarget"]').addEventListener('click', func
         });
     });
 });
+
+
+
+var burgerImage = document.getElementById('burgerImage');
+var mobileMenu = document.getElementById('menu');
+var closeMenuButton = document.getElementById('closeMenu');
+
+burgerImage.addEventListener('click', function() {
+    mobileMenu.style.display = 'block';
+});
+
+closeMenuButton.addEventListener('click', function() {
+    mobileMenu.style.display = 'none';
+});

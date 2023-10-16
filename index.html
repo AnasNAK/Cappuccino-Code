@@ -14,10 +14,11 @@
     <!-- start header-->
     <header>
         <div class="head">
+            <img class="burger" src="/assets/images/burger.png" alt="Burger Menu" id="burgerImage">
             <img src="assets/images/logo.png" alt="">
-            <ul>
+            <ul class="desktop-menu">
                 <li class="nav-items">
-                    <a class="active" >Home</a>
+                    <a class="active">Home</a>
                 </li>
                 <li class="nav-items">
                     <a href="menu.html">Menu</a>
@@ -29,9 +30,26 @@
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
-
+        </div>
+        <div id="menu" class="hidden mobile-menu">
+            <span id="closeMenu" class="close-button">X</span>
+            <ul>
+                <li class="">
+                    <a href="">Home</a>
+                </li>
+                <li class="">
+                    <a href="menu.html">Menu</a>
+                </li>
+                <li class="">
+                    <a href="location.html">Location</a>
+                </li>
+                <li class="">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </header>
+    
     <!-- end header -->
 
     <!-- start first section -->
@@ -160,7 +178,7 @@
     <footer>
         <div class="back-footer">
             <div class="footer-links">
-                <div>
+                <div class="menu-down">
                     <ul>
                         <li><a href="#scrollTarget">HOME</a></li>
                         <li><a href="menu.html">MENU</a></li>

@@ -1,25 +1,18 @@
-document.querySelector('a[href="#scrollTarget"]').addEventListener('click', function(e) {
-    e.preventDefault();  
-    document.querySelector('#scrollTarget').scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
 
 
-
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('.filter-button');
     const containers = document.querySelectorAll('.container-boxes');
-
+    
     buttons.forEach(button => {
         button.addEventListener('click', function() {
             const category = this.getAttribute('data-category');
-
+            
             containers.forEach(container => {
                 container.style.opacity = 0;
                 container.style.display = 'none';
             });
-
+            
             if (category === 'all') {
                 containers.forEach(container => {
                     container.style.display = 'block';
@@ -56,3 +49,13 @@ burgerImage.addEventListener('click', function() {
 closeMenuButton.addEventListener('click', function() {
     mobileMenu.style.display = 'none';
 });
+
+
+
+document.querySelector('a[href="#scrollTarget"]').addEventListener('click', function(e) {
+    e.preventDefault();  
+    document.querySelector('#scrollTarget').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+

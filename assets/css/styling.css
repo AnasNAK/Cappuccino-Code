@@ -254,7 +254,7 @@ ul li a.active {
 }
 
 .our-cost {
-    background-image: url(/assets/images/home_5.png);
+    background-image: url(../assets/images/home_5.png);
     width: 100%;
     height: 100vh;
 }
@@ -317,7 +317,7 @@ ul li a.active {
 }
 
 .hero-maps .maps {
-    background-image: url(/assets/images/map_1.png);
+    background-image: url(../assets/images/map_1.png);
     height: 374px;
     width: 100%;
     padding: 3px;
@@ -331,7 +331,7 @@ ul li a.active {
 }
 
 footer {
-    background-image: url(/assets/images/footer.png);
+    background-image: url(../assets/images/footer.png);
     width: 100%;
     height: 82vh;
 }
@@ -703,7 +703,7 @@ footer ul {
 
 
     .sec-1 {
-        background-image: url(/assets/images/mobile-2.png);
+        background-image: url(../assets/images/mobile-2.png);
         height: 100%;
         width: 100%;
     }
@@ -740,7 +740,7 @@ footer ul {
 
 
     .sec-2 {
-        background-image: url(/assets/images/mobile-1.png);
+        background-image: url(../assets/images/mobile-1.png);
         height: 100%;
     }
 
